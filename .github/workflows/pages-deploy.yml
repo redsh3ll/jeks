@@ -17,7 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0  # for posts's lastmode
+          fetch-depth: 0  # for posts's lKastmode
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
